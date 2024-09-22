@@ -1,0 +1,79 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    padding: 100px 20px;
+    height: 100vh;
+}
+
+#home {
+    background: #f4f4f4;
+}
+
+#about {
+    background: #ffebcd;
+}
+
+#services {
+    background: #e0f7fa;
+}
+
+#contact {
+    background: #ffccbc;
+}
+
+/* Navigation Menu Styles */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+/* Sticky Navbar on Scroll */
+.sticky {
+    background-color: #333;
+}
+
+.sticky a {
+    color: white;
+}
+
+.sticky a:hover {
+    background-color: #555;
+    color: white;
+}
